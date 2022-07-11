@@ -1,15 +1,29 @@
 * {
-    padding: 0;
-    margin: 0;
-}
-.navbar>.container{
-    justify-content: center
-}
+  padding: 0;
+  margin: 0; }
+
+.navbar > .container {
+  justify-content: center; }
 
 .navbar-collapse {
-    justify-content: center;
-}
+  justify-content: center; }
 
 .navbar {
---bs-navbar-hover-color: rgb(255 0 0 );
-}
+  --bs-navbar-hover-color: rgb(255 0 0 ); }
+
+.centrar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  margin: 50px; }
+
+.opacidad:hover {
+  opacity: 0.5; }
+
+.boton {
+  border-radius: 10px;
+  border-color: red;
+  border: 5px;
+  padding: 5px;
+  color: red; }

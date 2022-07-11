@@ -1,0 +1,20 @@
+
+.centrar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: 50px;
+}
+
+.opacidad:hover{
+    opacity: 0.5;
+}
+
+.boton{
+    border-radius: 10px;
+    border-color: red;
+    border: 5px;
+    padding: 5px;
+    color: red;
+}
