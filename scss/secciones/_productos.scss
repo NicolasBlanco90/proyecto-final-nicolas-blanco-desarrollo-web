@@ -30,7 +30,7 @@
     font-weight: 400;
     line-height: 1;
     margin: 1px;
-    padding: 6.2px 2.2px;
+    padding: 6.2px 31px;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -69,3 +69,16 @@
     color:white;
     text-shadow: 4px 4px 2px black;
 }
+
+.zoom {
+    transition: all 0.35s ease-in-out;           
+    cursor: zoom-in;  
+    }     
+    
+    .zoom:hover,  
+    .zoom:active,   
+    .zoom:focus { 
+    transform: scale(1.5);    
+    position:relative;      
+    z-index:100;  
+    }

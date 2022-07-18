@@ -1,0 +1,5 @@
+Modificaciones SEO:
+- Se personalizaron los "title" de todos los html.
+- Se agregaron los titulos a todos los html (h1).
+- Se agregaron los keywords a todos los html.
+- Se agregaron las description a todos los html.

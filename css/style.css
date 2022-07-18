@@ -101,7 +101,7 @@
   font-weight: 400;
   line-height: 1;
   margin: 1px;
-  padding: 6.2px 2.2px;
+  padding: 6.2px 31px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -134,3 +134,14 @@
   background-image: url(https://i.pinimg.com/736x/24/81/88/248188b2f0949bee507ad52ab168b3b6.jpg);
   color: white;
   text-shadow: 4px 4px 2px black; }
+
+.zoom {
+  transition: all 0.35s ease-in-out;
+  cursor: zoom-in; }
+
+.zoom:hover,
+.zoom:active,
+.zoom:focus {
+  transform: scale(1.5);
+  position: relative;
+  z-index: 100; }
