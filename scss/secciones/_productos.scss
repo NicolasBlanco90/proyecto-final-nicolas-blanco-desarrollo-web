@@ -18,7 +18,6 @@
     border: 2px solid #e74c3c;
     border-radius: 0.6em;
     color: #e74c3c;
-    cursor: pointer;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -65,14 +64,13 @@
 }
 
 .fondo-h1{
-    background-image: url(https://i.pinimg.com/736x/24/81/88/248188b2f0949bee507ad52ab168b3b6.jpg);
+    background-image:url("../images/trama.jpg");
     color:white;
     text-shadow: 4px 4px 2px black;
 }
 
 .zoom {
-    transition: all 0.35s ease-in-out;           
-    cursor: zoom-in;  
+    transition: all 0.35s ease-in-out;  
     }     
     
     .zoom:hover,  
